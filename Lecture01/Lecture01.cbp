@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Lecture01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Lecture01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/wrh10/Downloads/Education/CSU Fresno/Computer Science/CSCI 172/Projects/Common/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Lecture01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/Users/wrh10/Downloads/Education/CSU Fresno/Computer Science/CSCI 172/Projects/Common/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/wrh10/Downloads/Education/CSU Fresno/Computer Science/CSCI 172/Projects/Common/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="C:/Users/wrh10/Downloads/Education/CSU Fresno/Computer Science/CSCI 172/Projects/Common/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after='cmd /c copy &quot;$(PROJECT_DIR)..\Common\bin\Win32&quot; &quot;$(TARGET_OUTPUT_DIR)&quot;;' />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1693594182 source:c:\users\wrh10\downloads\education\csu fresno\computer science\csci 172\projects\lecture01\main.cpp
+	<string.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1680935102 c:\users\wrh10\downloads\education\csu fresno\computer science\csci 172\projects\common\include\glut\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1683063181 c:\users\wrh10\downloads\education\csu fresno\computer science\csci 172\projects\common\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
